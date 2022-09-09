@@ -1,50 +1,38 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="icon" href="../static/logo.png" type="image/jpeg">
-    <link rel="apple-touch-icon" sizes="180x180" href="../static/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../static/favicon-32x32.png">     
-    <link rel="icon" type="image/png" sizes="16x16" href="../static/favicon-16x16.png">
-    <link rel="manifest" href="../staic/site.webmanifest">  
-    <link rel="mask-icon" href="../staic/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="./static/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <title>Paytm-Nodejs</title>
-  </head>
-  <body style="background-color:#f5f3ef">
-    <div class="container-fluid">
-    <div class="row my-5">
-      <div class="col-md-4 offset-md-4">
-        <div class="card">
-          <div class="card-body">
-            <form class="" action="/paynow" method="post">
-              <div class="form-group">
-                <label for="">Name: </label>
-                <input class="form-control" type="text" name="name" value="">
-              </div>
-              <div class="form-group">
-                <label for="">Email: </label>
-                <input class="form-control" type="text" name="email" value="">
-              </div>
-              <div class="form-group">
-                <label for="">Phone: </label>
-                <input class="form-control" type="text" name="phone" value="">
-              </div>
-                <div class="form-group">
-                <label for="">Amount: </label>
-                <input class="form-control" type="text" name="amount" value="">
-              </div>
-              <div class="form-group">
-                <button class="btn form-control btn-primary">Pay Now</button>
-              </div>
-            </form>
-          </div>
-        </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/style2.css">
+</head>
+<body>
+    <div class="h12"></div>
+    <div class="h1"><h1>Payment Form</h1></div>
+    <div class="h13"></div>
+    <div class="form1">
+    <div class="form">
+    <form class="" action="/paynow" method="post">
+      <div class="name">
+        <label for="">Name :</label>
+        <input type="name" id="name" name="name" value="">
       </div>
+      <div class="name">
+        <label for="">Mobile No :</label>
+        <input type="number" id="no." name="phone" value="">
+      </div>
+      <div class="name">
+        <label for="">Email Id :</label>
+        <input type="email" id="disc" name="email" value="">
+      </div>
+      <div class="name">
+        <label for="amount">Amount :</label>
+        <input type="amount" id="amount" name="amount" value="" >
+      </div>
+      <div class="btn"><button type="submit" class="button">Pay Now</button></div>
+    </form>
     </div>
-  </div>
-  </body>
+</div>
+</body>
 </html>
