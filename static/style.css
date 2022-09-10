@@ -297,6 +297,7 @@ nav ul li:hover{
     .contentA h1{
         font-size: 45px;
         margin-right: 45px;
+        color: #18ced0;
     }
     .content p{
         margin-right: 45px;
@@ -306,10 +307,13 @@ nav ul li:hover{
         height: 27px;
         border-radius: 8px;
         border: none;
-        background: #149697 ;
+        background: #18ced0 ;
         color: white;
         cursor: pointer;
         font-size: 14px;
+    }
+    .content .btn2:hover{
+        background: #18ced0;
     }
     .contentA{
         padding-left: 20px;
