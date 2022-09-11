@@ -330,9 +330,14 @@ nav ul li:hover{
         font-size: 14px;
     }    
 }
-@media (max-width:521px) and (min-width:400px) {
+@media (max-width:521px) and (min-width:356px) {
     footer{
         font-size: 12px;
+    }    
+}
+@media (max-width:356px) and (min-width:200px) {
+    footer{
+        font-size: 6px;
     }    
 }
 
