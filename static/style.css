@@ -263,7 +263,7 @@ nav ul li:hover{
         text-align: center;
     }
 }
-@media (max-width: 1153px) {
+@media (max-width: 900px) {
     #icon{
         display: block;
     }
@@ -327,25 +327,11 @@ nav ul li:hover{
 }
 @media (max-width:650px) and (min-width:521px) {
     footer{
-        height: 3vh;
         font-size: 14px;
     }    
 }
 @media (max-width:521px) and (min-width:400px) {
     footer{
-        height: 3vh;
-        font-size: 12px;
-    }    
-}
-@media (max-width:521px) and (min-width:400px) {
-    footer{
-        height: 2vh;
-        font-size: 10px;
-    }    
-}
-@media (max-width:400px) and (min-width:300px) {
-    footer{
-        
         font-size: 12px;
     }    
 }
@@ -397,12 +383,20 @@ nav ul li:hover{
 .content3{
     width: 100vw;
 }
+.content3-1{
+    width: 100vw;
+    height: 12vh;
+}
 .OC{
     display: flex;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     font-size: 43px;
     color: white;
+}
+.OC1{
+    width: 100vw;
+    height: 8vh;
 }
 .content3-2{
     width: 100vw;
@@ -413,16 +407,14 @@ nav ul li:hover{
 }
 footer{
     color: #ffffff;
-   text-align: center;
-    height: 4vh;
-    width: 100vw;
+    text-align: center;
     background: linear-gradient(to left, rgba(0, 0, 0, 0.5)50%,rgba(0,0,0,0.5)50%) ;
 }
 footer h3{
     font-family: 'Poppins', sans-serif;
 }
 .C-1{
-        height: 142vh;
+        height: auto;
 }
 .client1{
     display: flex;
