@@ -280,7 +280,6 @@ nav ul li:hover{
     }
     .active{
         color: white;
-        padding-top: 12px;
     }
     nav ul{
         display: block;
