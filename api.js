@@ -62,8 +62,8 @@ if(!paymentDetails.amount || !paymentDetails.customerId || !paymentDetails.custo
 
 
     checksum_lib.genchecksum(params, config.PaytmConfig.key, function (err, checksum) {
-        //var txn_url ="https://securegw-stage.paytm.in/theia/processTransaction"; // for staging
-         var txn_url = "https://securegw.paytm.in/theia/processTransaction"; // for production
+        var txn_url ="https://securegw-stage.paytm.in/theia/processTransaction"; // for staging
+         //var txn_url = "https://securegw.paytm.in/theia/processTransaction"; // for production
 
         var form_fields = "";
         for (var x in params) {
@@ -110,8 +110,8 @@ app.post("/callback", (req, res) => {
        post_data = 'JsonData='+JSON.stringify(params);
 
        var options = {
-         //hostname: 'securegw-stage.paytm.in', // for staging
-          hostname: 'securegw.paytm.in', // for production
+         hostname: 'securegw-stage.paytm.in', // for staging
+          //hostname: 'securegw.paytm.in', // for production
          port: 443,
          path: '/merchant-status/getTxnStatus',
          method: 'POST',
