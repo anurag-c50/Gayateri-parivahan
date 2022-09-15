@@ -30,6 +30,9 @@ app.get('/clients',(req,res)=>{
 app.get("/payhere", (req, res) => {
   res.status(200).render('paytm.pug');
 });
+app.get("/contactus", (req, res) => {
+  res.status(200).render('contactus.pug');
+});
 app.get("*",(req,res)=>{
   res.status(200).render('index.pug');
 })

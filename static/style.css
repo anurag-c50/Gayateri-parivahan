@@ -111,9 +111,7 @@ a{
 a:hover{
     color:#16adad;
 }
-.a{
-    padding-top: 12px;
-}
+
 nav ul li:hover{
     color: #149697;
 }
@@ -573,14 +571,30 @@ footer h3{
     width: 100vw;
     height: 22vh;
 }
-.address1{
-    margin: 0px 13% 0px;
-    border: 2px rgb(255, 255, 255) solid;
-    padding-bottom: 2.8%;
-    margin-bottom: 2%;
-}
 .success{
     text-align:center;
     margin: auto;
     font-size: 48px;
+}
+.foot{
+    position: sticky;
+    top: 100%;
+}
+.btn0{
+    display: flex;
+    justify-content: center;
+}
+.bt{
+    width: 164px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background: #149697 ;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+.bt:hover{
+    background: white;
+    color: #149697;
 }
